@@ -1,0 +1,32 @@
+{
+  "name": "go-surf",
+  "version": "1.0.0",
+  "description": "go-surf landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliaksandraSavelyeva/go-surf.git"
+  },
+  "author": "Aliaksandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliaksandraSavelyeva/go-surf/issues"
+  },
+  "homepage": "https://github.com/AliaksandraSavelyeva/go-surf#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "magnific-popup": "^1.1.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
