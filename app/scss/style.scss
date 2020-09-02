@@ -22,8 +22,6 @@
     right: 80px;
     bottom: 116px;
     text-align: right;
-    color: #FFFFFF;
-    text-transform: uppercase;
 }
 .slider-item__info-subtitle {
     margin-bottom: 5px;
@@ -59,7 +57,6 @@
     bottom: 36px;
     max-width: 920px;
     width: 100%;
-    color: #FFFFFF;
     .slick-current {
         .dots-box {
             border-top: 4px solid $green;
@@ -82,6 +79,7 @@
     &__name {
         font-weight: 300;
         line-height: 19px;
+        text-transform: capitalize;
     }
 }
 .header__aside {
@@ -92,14 +90,11 @@
     border-right: 1px solid rgba(#FFFFFF, .25);
     height: 100vh;
     text-align: center;
-    color: #FFFFFF;
 }
 .header__title {
     font-weight: 800;
     font-size: 200px;
     line-height: 156px;
-    text-transform: uppercase;
-    color: #FFFFFF;
     opacity: 0.07;
     max-width: 467px;
     position: absolute;
@@ -110,7 +105,6 @@
 .menu {
     padding-top: 40px;
     a {
-        color: #FFFFFF;
         span {
             display: block;
             font-weight: 500;
@@ -119,6 +113,7 @@
             letter-spacing: 3px;
             padding-top: 6px;
             margin-bottom: 20px;
+            text-transform: capitalize;
         }
     }
 }
@@ -148,6 +143,7 @@
     font-weight: 300;
     position: relative;
     padding-left: 19px;
+    text-transform: capitalize;
     &::before {
         content: "";
         position: absolute;
@@ -180,7 +176,18 @@
         stroke-dashoffset: 0;
     }
 }
-
+.surf {
+    padding: 160px 0 210px;
+    background-image: url(../img/surf-bg.png);
+    background-position: right 200px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.surf__subtitle {
+    text-align: right;
+    padding-right: 80px;
+    margin-top: -86px;
+}
 
 
 
