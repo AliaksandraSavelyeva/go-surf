@@ -18,7 +18,16 @@ $(function() {
         slidesToShow: 4,
         slidesToScroll: 1,
         prevArrow: '<img class="slider-arrows slider-arrows-left" src="img/arrows-left.svg" alt="Left Arrow">',
-        nextArrow: '<img class="slider-arrows slider-arrows-right" src="img/arrows-right.svg" alt="Right Arrow">'
+        nextArrow: '<img class="slider-arrows slider-arrows-right" src="img/arrows-right.svg" alt="Right Arrow">',
+        asNavFor: '.slider-map'
+    });
+
+    $('.slider-map').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        arrows: false,
+        asNavFor: '.surf-slider',
+        focusOnSelect: true
     });
 
 });
