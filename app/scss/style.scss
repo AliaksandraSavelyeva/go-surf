@@ -418,6 +418,10 @@
     background-image: url(../img/travel-bg.png);
     background-position: bottom right;
     background-repeat: no-repeat;
+    .slider-arrows {
+        top: 225px;
+        opacity: .5;
+    }
 }
 .travel-slider {
     &__head {
